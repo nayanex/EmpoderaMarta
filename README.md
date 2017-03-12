@@ -2,7 +2,13 @@
 Somos uma plataforma online de contéudo interativo com conteúdo educacional para mulheres idosas.
 
 ## License
-Copyright (c) 2017 EmpoderaMarta Software Foundation
+Copyright (c) 2017 EmpoderaMarta authors:
+* Nayana Holanda de Abreu
+* Amanda Piva
+* Jaqueline Venturine
+* Pamela Bembe Ianovalli
+* Felipe Antonio Cardoso 
+* Marta Bembe Ianovalli
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
