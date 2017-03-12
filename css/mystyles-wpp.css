@@ -1,5 +1,6 @@
+
 .navbar-inverse .navbar-brand {
-    color: white ;
+    color: black ;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -8,7 +9,7 @@
 }
 
 .jumbotron {
-    background-image: url(../img/main-jumbotron.jpg) !important;
+    background-image: url(../img/whatsapp-jumbo.png) !important;
 }
 
 .row-header{
@@ -32,8 +33,12 @@
 .jumbotron {
     padding:30px 30px 30px 30px;
     margin:0px auto;
-    background: white ;
-    color:white;
+    background: #7986CB ;
+    color:floralwhite;
+    
+
+    -webkit-background-size: cover;
+
 }
 
 address{
@@ -47,8 +52,8 @@ body{
 }
 
 .navbar-inverse {
-     background: #ff5c5c;
-     color: white;
+     background: #30b536;
+     color: white !important
 }
 
 .navbar-inverse .navbar-nav > .active > a,
