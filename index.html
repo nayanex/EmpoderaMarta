@@ -219,25 +219,27 @@
                       {
                         name:'Aula 1 - Introdução ao Whatsapp',
                         image: 'img/wpp-icon.jpg',
-                        category: 'mains',
+                        category: 'whatsapp',
                         label:'Bombando',
                         price:'grátis',
+                        link: 'whatsapp-lessons.html',
                         description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
                         comment: ''
                       },
                       {
                         name:'Aula 2 - Adicionando Contatos',
                         image: 'img/wpp-icon.jpg',
-                        category: 'appetizer',
+                        category: 'whatsapp',
                         label:'',
                         price:'grátis',
+                        link: 'whatsapp-lessons.html',
                         description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce',
                         comment: ''
                       },
                       {
                         name:'Aula 3 - Enviando Imagens',
                         image: 'img/wpp-icon.jpg',
-                        category: 'appetizer',
+                        category: 'whatsapp',
                         label:'Novo',
                         price:'grátis',
                         link: 'whatsapp-lessons.html',
@@ -247,9 +249,50 @@
                       {
                         name:'Aula 4 - Usando a Função Ditado',
                         image: 'img/wpp-icon.jpg',
-                        category: 'dessert',
+                        category: 'whatsapp',
                         label:'',
                         price:'grátis',
+                        link: 'whatsapp-lessons.html',
+                        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
+                        comment: ''
+                      },
+                      {
+                        name:'Aula 1 - Introdução ao Facebook',
+                        image: 'img/facebook-icon.png',
+                        category: 'facebook',
+                        label:'',
+                        price:'grátis',
+                        link: 'whatsapp-lessons.html',
+                        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
+                        comment: ''
+                      },
+                      {
+                        name:'Aula 2 - O que é uma Timeline',
+                        image: 'img/facebook-icon.png',
+                        category: 'facebook',
+                        label:'',
+                        price:'grátis',
+                        link: 'whatsapp-lessons.html',
+                        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
+                        comment: ''
+                      },
+                      {
+                        name:'Aula 1 - Introdução ao Youtube',
+                        image: 'img/youtube-icon.png',
+                        category: 'youtube',
+                        label:'',
+                        price:'grátis',
+                        link: 'whatsapp-lessons.html',
+                        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
+                        comment: ''
+                      },
+                      {
+                        name:'Aula 1 - Introdução ao Netflix',
+                        image: 'img/netflix-icon.jpg',
+                        category: 'netflix',
+                        label:'',
+                        price:'grátis',
+                        link: 'whatsapp-lessons.html',
                         description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
                         comment: ''
                       }]
@@ -260,14 +303,14 @@
         this.select = function(setTab){
             this.tab = setTab;
 
-            if (setTab === 2)
-                this.filtText = "appetizer";
+            if (setTab === 1)
+                this.filtText = "whatsapp";
+            else if (setTab === 2)
+                this.filtText = "facebook";
             else if (setTab === 3)
-                this.filtText = "mains";
-            else if (setTab === 4)
-                this.filtText = "dessert";
+                this.filtText = "youtube";
             else
-                this.filtText = "";
+                this.filtText = "netflix";
         }
 
         this.isSelected = function(checkTab){
