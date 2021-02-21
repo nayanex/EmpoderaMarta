@@ -3,7 +3,7 @@ Somos uma plataforma online de contéudo interativo com conteúdo educacional pa
 
 ## License
 Copyright (c) 2017 EmpoderaMarta authors:
-* Nayana Holanda de Abreu
+* Nayana H.
 * Amanda Piva
 * Jaqueline Venturine
 * Pamela Bembe Ianovalli
